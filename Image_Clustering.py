@@ -13,7 +13,7 @@ from sklearn.cluster import DBSCAN
 import pylab as pl
 import matplotlib.pyplot as plt
 model = VGG16(weights='imagenet', include_top=False)#imagenet-It contains more than 14 million images which belong to more than 20,000 classes
-                                                   #include_top-whether to include the 3 fully-connected layers at the top of the network.
+print("changes done")                                                   #include_top-whether to include the 3 fully-connected layers at the top of the network.
 #import imagehash
 
 imdir =r'C:/Users/Dell/Desktop/testimg'
